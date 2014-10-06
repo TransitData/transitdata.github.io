@@ -173,6 +173,10 @@ header ul a strong {
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
+header img {
+  float: left;
+  padding-right: 10px;
+}
 
 section {
   padding: 15px 20px;
