@@ -5,9 +5,9 @@
 		<img src="images/logo.jpg">
 		<h1>{{ page.title }}</h1>
 		<h3>{{ page.subtitle }}</h3>
-		<p class="view"><a href="https://github.com/TransitData">View the Organization on GitHub <small>TransitData</small></a></p>
+		<p class="view"><a href="{{ page.github_org_url }}">View the Organization on GitHub <small>{{ page.github_org_title }}</small></a></p>
 		<ul>
-			<li class="single"><a href="https://github.com/TransitData">View On <strong>GitHub</strong></a></li>
+			<li class="single"><a href="{{ page.github_org_url }}">View On <strong>GitHub</strong></a></li>
 		</ul>
 	</header>
 
